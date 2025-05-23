@@ -1,15 +1,11 @@
 #!/bin/bash
 
-# Define options
 options="Logout\nShutdown\nReboot\nSuspend"
-
-# Get user selection
 selected=$(echo -e "$options" | rofi -dmenu -p "Power Menu" -l 4)
 
-# Perform action based on selection
 case $selected in
     Logout)
-        # Close Hyprland (logout)
+        # Logout
         hyprctl dispatch exit ;;
     Shutdown)
         # Shutdown the system
