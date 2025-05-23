@@ -8,7 +8,7 @@ fastfetch -c void
 
 alias xi="doas /usr/bin/xbps-install"
 alias xr="doas /usr/bin/xbps-remove"
-alias xq="doas /usr/bin/xbps-query"
+alias xq="/usr/bin/xbps-query"
 
 export GTK_THEME="catppuccin-mocha-pink-standard+default"
 
