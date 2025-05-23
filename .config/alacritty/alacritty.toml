@@ -1,0 +1,35 @@
+[window]
+padding = { x = 10, y = 10 }
+opacity = 0.75
+
+[font]
+size = 13.0
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+style = "Regular"
+
+[colors.primary]
+background = "#24382D"
+foreground = "#ffffff"
+
+[colors.normal]
+black   = "#1c1c1c"   # unchanged grey
+red     = "#6b8c60"   # dull green variation
+green   = "#75a173"   # base green
+yellow  = "#88b77f"   # warm green/yellowish
+blue    = "#6e9b71"   # greenish blue
+magenta = "#7fb386"   # minty green
+cyan    = "#6a9e78"   # soft teal green
+white   = "#c0c0c0"   # unchanged grey
+
+[colors.bright]
+black   = "#808080"   # unchanged grey
+red     = "#8ebf88"   # lighter green
+green   = "#a3d59e"   # pale green
+yellow  = "#b3e2ae"   # lime pastel
+blue    = "#9ad3a1"   # faded teal green
+magenta = "#a8dcaa"   # mint pastel
+cyan    = "#91c798"   # soft green
+white   = "#ffffff"   # unchanged white
+
