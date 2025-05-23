@@ -1,7 +1,7 @@
 #!/bin/bash
 
 options="Logout\nShutdown\nReboot\nSuspend"
-selected=$(echo -e "$options" | rofi -dmenu -p "Power Menu" -l 4)
+selected=$(echo -e "$options" | tofi --prompt-text="Power Menu: ")
 
 case $selected in
     Logout)
@@ -20,4 +20,3 @@ case $selected in
         # Exit in case of invalid input or selection
         exit 1 ;;
 esac
-
