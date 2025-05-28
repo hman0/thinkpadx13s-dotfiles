@@ -67,6 +67,7 @@ tlp
 tofi
 vim
 void-repo-nonfree
+waylock
 wireplumber
 wl-clipboard
 wpa_supplicant
