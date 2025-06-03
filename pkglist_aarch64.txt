@@ -35,9 +35,8 @@ kexec-tools
 liberation-fonts-ttf
 liblz4-devel
 libnotify
-linux
 linux-firmware
-linux6.14
+linux6.15
 lz4
 make
 mesa
@@ -54,6 +53,7 @@ pavucontrol
 perl
 pipewire
 pkg-config
+power-profiles-daemon
 python3
 qt6-wayland
 re2
@@ -63,7 +63,6 @@ slurp
 squashfs-tools
 stow
 tldr
-tlp
 tofi
 vim
 void-repo-nonfree
@@ -73,6 +72,7 @@ wl-clipboard
 wpa_supplicant
 xdg-desktop-portal-gtk
 xdg-desktop-portal-hyprland
+xdg-utils
 xmirror
 xorg-server-xwayland
 xz
